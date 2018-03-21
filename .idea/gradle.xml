@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/LeakCanary" />
+            <option value="$PROJECT_DIR$/android-times-square" />
+            <option value="$PROJECT_DIR$/lottie_android" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

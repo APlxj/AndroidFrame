@@ -1,1 +1,1 @@
-include ':LeakCanary'
+include ':LeakCanary', ':lottie_android', ':android-times-square'
