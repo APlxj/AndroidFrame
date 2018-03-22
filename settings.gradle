@@ -1,1 +1,1 @@
-include ':LeakCanary', ':lottie_android', ':android-times-square'
+include ':LeakCanary', ':lottie_android', ':android-times-square', ':rxjava'
