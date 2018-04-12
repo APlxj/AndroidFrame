@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$/android-times-square" />
             <option value="$PROJECT_DIR$/lottie_android" />
             <option value="$PROJECT_DIR$/rxjava" />
+            <option value="$PROJECT_DIR$/slidingmenu" />
+            <option value="$PROJECT_DIR$/slidingmenulibrary" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

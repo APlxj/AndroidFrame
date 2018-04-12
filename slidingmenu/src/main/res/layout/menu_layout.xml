@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jeremyfeinstein.slidingmenu.lib.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slidingmenulayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ic_book_zhihuchupin_p_p" />
+
+            <TextView
+                android:id="@+id/username"
+                style="@style/menu"
+                android:layout_width="wrap_content"
+                android:text="@string/username" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/home"
+                    style="@style/menu"
+                    android:background="@color/blue"
+                    android:text="@string/home"
+                    android:textColor="#FFFFFF" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/find"
+                    style="@style/menu"
+                    android:text="@string/find" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/keep"
+                    style="@style/menu"
+                    android:text="@string/keep" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/collect"
+                    style="@style/menu"
+                    android:text="@string/collect" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/draft"
+                    style="@style/menu"
+                    android:text="@string/draft" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/search"
+                    style="@style/menu"
+                    android:text="@string/search" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/quiz"
+                    style="@style/menu"
+                    android:text="@string/quiz" />
+
+                <include layout="@layout/line" />
+
+                <TextView
+                    android:id="@+id/set"
+                    style="@style/menu"
+                    android:text="@string/set" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>

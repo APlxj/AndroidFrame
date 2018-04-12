@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/android-times-square/android-times-square.iml" filepath="$PROJECT_DIR$/android-times-square/android-times-square.iml" />
       <module fileurl="file://$PROJECT_DIR$/lottie_android/lottie_android.iml" filepath="$PROJECT_DIR$/lottie_android/lottie_android.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenulibrary/slidingmenulibrary.iml" filepath="$PROJECT_DIR$/slidingmenulibrary/slidingmenulibrary.iml" />
     </modules>
   </component>
 </project>
