@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidFrame.iml" filepath="$PROJECT_DIR$/AndroidFrame.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeakCanary/LeakCanary.iml" filepath="$PROJECT_DIR$/LeakCanary/LeakCanary.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-times-square/android-times-square.iml" filepath="$PROJECT_DIR$/android-times-square/android-times-square.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glide/glide.iml" filepath="$PROJECT_DIR$/glide/glide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient/httpclient.iml" filepath="$PROJECT_DIR$/httpclient/httpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/lottie_android/lottie_android.iml" filepath="$PROJECT_DIR$/lottie_android/lottie_android.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />
