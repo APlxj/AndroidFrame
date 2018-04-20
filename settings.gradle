@@ -1,1 +1,1 @@
-include ':LeakCanary', ':lottie_android', ':android-times-square', ':rxjava', ':slidingmenu', ':slidingmenulibrary', ':glide', ':httpclient', ':picasso', ':mpandroidchart', ':hellocharts', ':MPChartLib', ':MPChartExample', ':photoview', ':materialdialogs'
+include ':LeakCanary', ':lottie_android', ':android-times-square', ':rxjava', ':slidingmenu', ':slidingmenulibrary', ':glide', ':httpclient', ':picasso', ':hellocharts', ':MPChartLib', ':MPChartExample', ':photoview', ':materialdialogs', ':materialanimations'
