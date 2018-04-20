@@ -11,7 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/hellocharts/hellocharts.iml" filepath="$PROJECT_DIR$/hellocharts/hellocharts.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpclient/httpclient.iml" filepath="$PROJECT_DIR$/httpclient/httpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/lottie_android/lottie_android.iml" filepath="$PROJECT_DIR$/lottie_android/lottie_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialdialogs/materialdialogs.iml" filepath="$PROJECT_DIR$/materialdialogs/materialdialogs.iml" />
       <module fileurl="file://$PROJECT_DIR$/mpandroidchart/mpandroidchart.iml" filepath="$PROJECT_DIR$/mpandroidchart/mpandroidchart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoview/photoview.iml" filepath="$PROJECT_DIR$/photoview/photoview.iml" />
       <module fileurl="file://$PROJECT_DIR$/picasso/picasso.iml" filepath="$PROJECT_DIR$/picasso/picasso.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />

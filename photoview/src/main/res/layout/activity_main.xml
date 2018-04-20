@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/v_home"
+                layout="@layout/view_home" />
+
+            <TextView
+                android:id="@+id/tv_home"
+                style="@style/home_text"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/v_dynamic"
+                layout="@layout/view_home"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_dynamic"
+                style="@style/home_text"
+                android:text="动态" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/v_mine"
+                layout="@layout/view_home"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_mine"
+                style="@style/home_text"
+                android:text="我的" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

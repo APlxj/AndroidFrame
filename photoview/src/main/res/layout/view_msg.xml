@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="25dp">
+
+    <include layout="@layout/view_home" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="风景画"
+        android:textColor="@color/brown1"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t\t风景画通俗地说是以风景为题材的绘画。中国画中的山水画属于风景画，但不用此概念。该词约在20世纪传入中国，仅使用于西方传入的油画、水彩画等。西方的油画风景、中国的山水画最早只作为人物画的背景，以后才逐步发展为独立的画科。\n\t\t在西方，风景画独立成科，德国画家A.丢勒的水彩画和A.阿尔特多费尔的油画中，出现地方志性风景画。该画种成熟于17世纪的荷兰。J.van雷斯达尔、J.维采尔、M.霍贝玛对风景画的发展有较大贡献。与此同时，又产生了海景画、夜景画、街景画主要分科。意大利又有牧歌式的理想风景画，法国有古代神话人物点景的英雄风景画等。"
+        android:textColor="@color/font_goods_name"
+        android:textSize="16sp" />
+
+    <ap.com.photoview.view.GrapeGridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp" />
+</LinearLayout>
